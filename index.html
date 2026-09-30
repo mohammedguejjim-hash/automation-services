@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mohammed Guejjim — AI Automation Expert | n8n, Make.com, Zapier</title>
-<meta name="description" content="Certified automation expert (Make.com Level 4, n8n Professional). I build white-label n8n/Make workflows, AI chatbots & agents, and CRM integrations for agencies and businesses. 100% remote.">
+<title>Mohammed Guejjim — Automation, Websites & AI Systems, Done For You</title>
+<meta name="description" content="I take repetitive work off your plate: business automation (n8n, Make.com), websites that book clients, and practical AI assistants. Certified, 100% remote, plain-words process.">
 <style>
 :root{
   --bg:#0a0e14; --bg2:#0e141f; --card:#111927; --line:#1e2a3d;
@@ -13,55 +13,45 @@
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--txt);font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;line-height:1.6;overflow-x:hidden}
+body{background:var(--bg);color:var(--txt);font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;line-height:1.65;overflow-x:hidden}
 ::selection{background:var(--acc);color:#06110a}
 a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
 .wrap{max-width:1160px;margin:0 auto;padding:0 24px}
 /* ---------- NAV ---------- */
 nav{position:fixed;top:0;left:0;right:0;z-index:50;backdrop-filter:blur(14px);background:rgba(10,14,20,.72);border-bottom:1px solid var(--line)}
 nav .wrap{display:flex;align-items:center;justify-content:space-between;height:66px}
 .brand{font-weight:800;font-size:18px;letter-spacing:-.02em}
 .brand span{color:var(--acc)}
-.navlinks{display:flex;gap:28px;font-size:14px;color:var(--mut)}
+.navlinks{display:flex;gap:26px;font-size:14px;color:var(--mut)}
 .navlinks a:hover{color:var(--txt)}
-.btn{display:inline-block;padding:13px 26px;border-radius:10px;font-weight:700;font-size:15px;transition:transform .15s,box-shadow .15s;cursor:pointer;border:1px solid transparent}
+.btn{display:inline-block;padding:14px 28px;border-radius:10px;font-weight:700;font-size:15px;transition:transform .15s,box-shadow .15s;cursor:pointer;border:1px solid transparent}
 .btn-acc{background:var(--acc);color:#06110a}
 .btn-acc:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(74,222,128,.35)}
-.btn-ghost{border-color:var(--line);color:var(--txt)}
+.btn-ghost{border-color:rgba(255,255,255,.25);color:#fff;background:rgba(255,255,255,.06);backdrop-filter:blur(6px)}
 .btn-ghost:hover{border-color:var(--acc);color:var(--acc)}
 .btn-sm{padding:10px 20px;font-size:14px}
 /* ---------- HERO ---------- */
-.hero{padding:150px 0 90px;position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;top:-200px;right:-200px;width:600px;height:600px;background:radial-gradient(circle,rgba(74,222,128,.09),transparent 65%);pointer-events:none}
-.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center}
-.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:var(--acc);background:var(--acc-dim);border:1px solid rgba(74,222,128,.25);padding:7px 14px;border-radius:100px;margin-bottom:22px}
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;padding:130px 0 80px}
+.hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.hero .scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,10,16,.72) 0%,rgba(6,10,16,.62) 45%,rgba(10,14,20,.96) 100%);z-index:1}
+.hero .wrap{position:relative;z-index:2}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:var(--acc);background:rgba(74,222,128,.12);border:1px solid rgba(74,222,128,.3);padding:7px 14px;border-radius:100px;margin-bottom:24px;backdrop-filter:blur(6px)}
 .eyebrow .dot{width:8px;height:8px;border-radius:50%;background:var(--acc);animation:pulse 2s infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
-h1{font-size:clamp(38px,5.2vw,62px);line-height:1.08;letter-spacing:-.03em;font-weight:800;margin-bottom:20px}
+h1{font-size:clamp(40px,5.6vw,68px);line-height:1.06;letter-spacing:-.03em;font-weight:800;margin-bottom:22px;max-width:760px}
 h1 .grad{background:linear-gradient(100deg,var(--acc),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
-.lead{font-size:18px;color:var(--mut);max-width:520px;margin-bottom:32px}
-.lead strong{color:var(--txt)}
-.cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:36px}
-.mini-stats{display:flex;gap:34px;flex-wrap:wrap}
-.mini-stats div b{display:block;font-size:22px;color:var(--txt)}
-.mini-stats div span{font-size:13px;color:var(--mut)}
-/* workflow diagram */
-.flow-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px;position:relative;box-shadow:0 24px 60px rgba(0,0,0,.45)}
-.flow-card .bar{display:flex;gap:7px;margin-bottom:20px}
-.flow-card .bar i{width:11px;height:11px;border-radius:50%;background:#2a3a52}
-.flow-card .bar i:first-child{background:#f87171}.flow-card .bar i:nth-child(2){background:#fbbf24}.flow-card .bar i:nth-child(3){background:var(--acc)}
-.node{border:1px solid var(--line);background:var(--bg2);border-radius:12px;padding:12px 16px;font-size:13px;display:flex;align-items:center;gap:10px;margin:0 auto;max-width:280px;position:relative;z-index:2}
-.node .ico{width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0}
-.node small{display:block;color:var(--mut);font-size:11px}
-.node b{font-size:13px}
-.connector{width:2px;height:26px;margin:0 auto;background:repeating-linear-gradient(to bottom,var(--acc) 0 6px,transparent 6px 12px);animation:flow 1s linear infinite;opacity:.7}
-@keyframes flow{to{background-position:0 12px}}
-.node-row{display:flex;gap:10px;justify-content:center;margin:0 auto;max-width:340px;position:relative;z-index:2}
-.node-row .node{margin:0;flex:1;justify-content:center;text-align:center;flex-direction:column;gap:6px;padding:12px 8px}
-.flow-tag{position:absolute;top:-13px;right:22px;background:var(--acc);color:#06110a;font-size:11px;font-weight:800;padding:4px 12px;border-radius:100px;letter-spacing:.06em}
+.lead{font-size:19px;color:#c3cede;max-width:600px;margin-bottom:34px}
+.lead strong{color:#fff}
+.cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:40px}
+.hero-proof{display:flex;gap:32px;flex-wrap:wrap}
+.hero-proof div b{display:block;font-size:16px;color:#fff}
+.hero-proof div span{font-size:13px;color:#a9b6cc}
+.scroll-hint{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);z-index:2;color:#8b98ad;font-size:12px;letter-spacing:.2em;text-transform:uppercase;animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,8px)}}
 /* ---------- STRIP ---------- */
 .strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--bg2);padding:20px 0;overflow:hidden}
-.strip-track{display:flex;gap:44px;white-space:nowrap;animation:scroll 26s linear infinite;width:max-content}
+.strip-track{display:flex;gap:44px;white-space:nowrap;animation:scroll 28s linear infinite;width:max-content}
 .strip-track span{font-size:15px;font-weight:700;color:var(--mut);display:flex;align-items:center;gap:44px}
 .strip-track span i{color:var(--acc);font-style:normal}
 @keyframes scroll{to{transform:translateX(-50%)}}
@@ -70,7 +60,17 @@ section{padding:96px 0}
 .kicker{font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin-bottom:14px}
 h2{font-size:clamp(30px,3.6vw,44px);letter-spacing:-.025em;font-weight:800;margin-bottom:16px;line-height:1.15}
 .sub{color:var(--mut);font-size:17px;max-width:640px;margin-bottom:50px}
+/* pain */
+.pain-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-bottom:36px}
+.pain{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px;display:flex;gap:16px;align-items:flex-start}
+.pain .x{width:34px;height:34px;border-radius:50%;background:rgba(248,113,113,.12);border:1px solid rgba(248,113,113,.3);color:#f87171;display:flex;align-items:center;justify-content:center;font-weight:800;flex-shrink:0}
+.pain p{font-size:15.5px;color:var(--mut)}
+.pain p strong{color:var(--txt)}
+.pain-close{font-size:19px;color:var(--txt);max-width:640px}
+.pain-close strong{color:var(--acc)}
 /* services */
+.svc-intro{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center;margin-bottom:56px}
+.svc-intro img{border-radius:18px;border:1px solid var(--line)}
 .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .svc{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:30px;transition:transform .2s,border-color .2s}
 .svc:hover{transform:translateY(-5px);border-color:rgba(74,222,128,.4)}
@@ -79,6 +79,27 @@ h2{font-size:clamp(30px,3.6vw,44px);letter-spacing:-.025em;font-weight:800;margi
 .svc p{font-size:14.5px;color:var(--mut)}
 .svc .tags{margin-top:16px;display:flex;flex-wrap:wrap;gap:8px}
 .svc .tags span{font-size:11.5px;background:var(--bg2);border:1px solid var(--line);padding:4px 10px;border-radius:100px;color:var(--mut)}
+/* work */
+.work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.work{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:transform .2s,border-color .2s}
+.work:hover{transform:translateY(-5px);border-color:rgba(74,222,128,.4)}
+.work img{aspect-ratio:16/10;object-fit:cover;object-position:top;width:100%}
+.work .body{padding:24px}
+.work .kind{font-size:11.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--acc);margin-bottom:8px}
+.work h3{font-size:19px;margin-bottom:8px}
+.work p{font-size:14px;color:var(--mut);margin-bottom:16px}
+.work a.view{font-size:14px;font-weight:700;color:var(--acc)}
+.work a.view:hover{text-decoration:underline}
+.work-note{margin-top:22px;font-size:13.5px;color:var(--mut);font-style:italic}
+/* who */
+.who-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-bottom:0}
+.who{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:38px;overflow:hidden;position:relative}
+.who img{border-radius:12px;margin-bottom:24px;aspect-ratio:16/8;object-fit:cover;width:100%}
+.who h3{font-size:23px;margin-bottom:12px}
+.who p{font-size:15px;color:var(--mut);margin-bottom:20px}
+.who ul{list-style:none;display:grid;gap:10px;margin-bottom:24px}
+.who li{display:flex;gap:10px;font-size:14.5px;color:var(--mut);align-items:flex-start}
+.who li i{color:var(--acc);font-style:normal;flex-shrink:0}
 /* process */
 .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;counter-reset:step}
 .step{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px 24px;position:relative}
@@ -86,17 +107,14 @@ h2{font-size:clamp(30px,3.6vw,44px);letter-spacing:-.025em;font-weight:800;margi
 .step h3{font-size:17px;margin:12px 0 8px}
 .step p{font-size:14px;color:var(--mut)}
 .step .free{display:inline-block;margin-top:12px;font-size:12px;font-weight:700;color:#06110a;background:var(--acc);padding:4px 12px;border-radius:100px}
-/* creds */
-.creds{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.cred-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.cred{border:1px solid var(--line);border-radius:16px;padding:28px;background:var(--bg)}
-.cred .badge{font-size:12px;font-weight:800;color:var(--acc);letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px}
-.cred h3{font-size:20px;margin-bottom:8px}
-.cred p{font-size:14px;color:var(--mut)}
-.about{display:grid;grid-template-columns:.9fr 1.1fr;gap:50px;align-items:center;margin-top:70px}
-.about-photo{border-radius:20px;background:linear-gradient(135deg,#12241a,#0e2a3a);border:1px solid var(--line);min-height:340px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;padding:40px;text-align:center}
+/* about */
+.about-sec{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.about{display:grid;grid-template-columns:.85fr 1.15fr;gap:50px;align-items:center}
+.about-photo{border-radius:20px;background:linear-gradient(135deg,#12241a,#0e2a3a);border:1px solid var(--line);min-height:360px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;padding:44px;text-align:center}
 .about-photo .init{width:96px;height:96px;border-radius:50%;background:linear-gradient(135deg,var(--acc),var(--acc2));display:flex;align-items:center;justify-content:center;font-size:34px;font-weight:800;color:#06110a}
-.about ul{list-style:none;margin-top:20px;display:grid;gap:12px}
+.cred-chips{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}
+.cred-chips span{font-size:13px;font-weight:600;background:var(--acc-dim);border:1px solid rgba(74,222,128,.3);color:var(--acc);padding:7px 15px;border-radius:100px}
+.about ul{list-style:none;margin-top:6px;display:grid;gap:12px}
 .about li{display:flex;gap:12px;font-size:15px;color:var(--mut);align-items:flex-start}
 .about li i{color:var(--acc);font-style:normal;flex-shrink:0;margin-top:2px}
 /* faq */
@@ -123,110 +141,192 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;flex-
 .rv.in{opacity:1;transform:none}
 /* responsive */
 @media(max-width:900px){
-  .hero-grid,.about{grid-template-columns:1fr}
+  .svc-intro,.about,.who-grid{grid-template-columns:1fr}
   .svc-grid{grid-template-columns:1fr 1fr}
+  .work-grid{grid-template-columns:1fr}
   .steps{grid-template-columns:1fr 1fr}
-  .cred-grid{grid-template-columns:1fr}
+  .pain-grid{grid-template-columns:1fr}
   .navlinks{display:none}
 }
-@media(max-width:560px){.svc-grid,.steps{grid-template-columns:1fr}.cta-box{padding:50px 24px}}
+@media(max-width:560px){.svc-grid,.steps{grid-template-columns:1fr}.cta-box{padding:50px 24px}.hero{min-height:92vh}}
+@media(prefers-reduced-motion:reduce){.hero video{display:none}}
 </style>
 </head>
 <body>
 
 <nav>
   <div class="wrap">
-    <a class="brand" href="#top">MG<span>.</span>automations</a>
+    <a class="brand" href="#top">MG<span>.</span>systems</a>
     <div class="navlinks">
       <a href="#services">Services</a>
+      <a href="#work">Work</a>
       <a href="#process">Process</a>
       <a href="#about">About</a>
       <a href="#faq">FAQ</a>
     </div>
-    <a href="#contact" class="btn btn-acc btn-sm">Free audit</a>
+    <a href="#contact" class="btn btn-acc btn-sm">Free call</a>
   </div>
 </nav>
 
 <header class="hero" id="top">
-  <div class="wrap hero-grid">
-    <div>
-      <div class="eyebrow"><span class="dot"></span> Available for new projects</div>
-      <h1>Your business runs on <span class="grad">autopilot.</span><br>You run the business.</h1>
-      <p class="lead">I'm <strong>Mohammed Guejjim</strong>, a certified automation expert. I build <strong>n8n &amp; Make.com workflows, AI chatbots and agents</strong> that eliminate repetitive work — for agencies (white-label) and businesses direct.</p>
-      <div class="cta-row">
-        <a href="#contact" class="btn btn-acc">Get a free automation audit</a>
-        <a href="#services" class="btn btn-ghost">See what I build</a>
-      </div>
-      <div class="mini-stats">
-        <div><b>Make.com L4</b><span>Certified — Advising</span></div>
-        <div><b>n8n</b><span>Professional certified</span></div>
-        <div><b>100% remote</b><span>Morocco → worldwide</span></div>
-      </div>
+  <video autoplay muted loop playsinline poster="assets/hero-poster.webp">
+    <source src="assets/hero-bg.mp4" type="video/mp4">
+  </video>
+  <div class="scrim"></div>
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot"></span> Taking on new projects now</div>
+    <h1>Stop doing the same tasks <span class="grad">every day.</span></h1>
+    <p class="lead">I'm <strong>Mohammed</strong> — I build systems that handle your repetitive work: bookings, follow-ups, data entry, reports. <strong>You get your week back.</strong> Simple as that.</p>
+    <div class="cta-row">
+      <a href="#contact" class="btn btn-acc">Tell me what's eating your time</a>
+      <a href="#work" class="btn btn-ghost">See my work</a>
     </div>
-    <div class="flow-card rv">
-      <span class="flow-tag">LIVE WORKFLOW</span>
-      <div class="bar"><i></i><i></i><i></i></div>
-      <div class="node"><div class="ico" style="background:rgba(74,222,128,.15)">📥</div><div><b>New lead</b><small>Webhook · website form</small></div></div>
-      <div class="connector"></div>
-      <div class="node"><div class="ico" style="background:rgba(34,211,238,.15)">🤖</div><div><b>AI qualifies it</b><small>GPT / Claude scoring</small></div></div>
-      <div class="connector"></div>
-      <div class="node-row">
-        <div class="node"><div class="ico" style="background:rgba(251,191,36,.15)">📇</div><div><b>CRM sync</b><small>HubSpot / Notion</small></div></div>
-        <div class="node"><div class="ico" style="background:rgba(74,222,128,.15)">💬</div><div><b>Auto follow-up</b><small>WhatsApp / Email</small></div></div>
-      </div>
-      <div class="connector"></div>
-      <div class="node"><div class="ico" style="background:rgba(34,211,238,.15)">📊</div><div><b>You get a report</b><small>Zero manual work</small></div></div>
+    <div class="hero-proof">
+      <div><b>Make.com · Level 4 certified</b><span>Advising &amp; architecture</span></div>
+      <div><b>n8n · Professional</b><span>Self-hosted workflows</span></div>
+      <div><b>Fès, Morocco → worldwide</b><span>100% remote · EN / FR / AR</span></div>
     </div>
   </div>
+  <div class="scroll-hint">Scroll</div>
 </header>
 
 <div class="strip">
   <div class="strip-track" id="stripTrack">
-    <span>n8n <i>◆</i> Make.com <i>◆</i> Zapier <i>◆</i> OpenAI <i>◆</i> Claude <i>◆</i> Gemini <i>◆</i> Python / FastAPI <i>◆</i> Next.js <i>◆</i> REST APIs <i>◆</i> Webhooks <i>◆</i> WhatsApp API <i>◆</i> HubSpot <i>◆</i>&nbsp;</span>
+    <span>n8n <i>◆</i> Make.com <i>◆</i> Zapier <i>◆</i> Next.js <i>◆</i> Python / FastAPI <i>◆</i> OpenAI <i>◆</i> Claude <i>◆</i> WhatsApp API <i>◆</i> HubSpot <i>◆</i> REST APIs <i>◆</i> Webhooks <i>◆</i>&nbsp;</span>
   </div>
 </div>
 
-<section id="services">
+<section id="pain">
   <div class="wrap">
-    <div class="kicker rv">Services</div>
-    <h2 class="rv">Everything manual,<br>automated.</h2>
-    <p class="sub rv">Fixed-price projects with a quote before we start. Every build is documented and handed over — no black boxes.</p>
+    <div class="kicker rv">Be honest with yourself</div>
+    <h2 class="rv">Sound familiar?</h2>
+    <p class="sub rv">Most businesses don't have a software problem. They have a "we've always done it this way" problem.</p>
+    <div class="pain-grid">
+      <div class="pain rv"><div class="x">✕</div><p><strong>You copy the same data</strong> from one app into another, every single day.</p></div>
+      <div class="pain rv"><div class="x">✕</div><p><strong>Leads come in</strong> — then follow-ups slip through the cracks and deals quietly die.</p></div>
+      <div class="pain rv"><div class="x">✕</div><p><strong>Someone spends every Friday</strong> building the same report by hand.</p></div>
+      <div class="pain rv"><div class="x">✕</div><p><strong>You know software could do it</strong> — you just don't have time to figure out how.</p></div>
+    </div>
+    <p class="pain-close rv">If you nodded at even one of these — <strong>that's exactly what I fix.</strong> For good.</p>
+  </div>
+</section>
+
+<section id="services" style="padding-top:0">
+  <div class="wrap">
+    <div class="kicker rv">What I do</div>
+    <h2 class="rv">The boring work,<br>handled.</h2>
+    <div class="svc-intro">
+      <div class="rv">
+        <p class="sub" style="margin-bottom:0">I don't sell you "workflows" or "AI solutions". I find the tasks draining your team's week and I make them run themselves — with the simplest reliable tool for the job. Sometimes that's n8n. Sometimes it's a proper website. Sometimes it's ten lines of Python.</p>
+      </div>
+      <img class="rv" src="assets/services-visual.webp" alt="Business tasks transforming into automated workflows" loading="lazy">
+    </div>
     <div class="svc-grid">
       <div class="svc rv">
         <div class="ico">⚙️</div>
-        <h3>Workflow automation</h3>
-        <p>Multi-step n8n / Make / Zapier workflows connecting your tools: lead capture, data sync, notifications, reporting — running 24/7.</p>
+        <h3>Business automation</h3>
+        <p>Lead capture, data sync, notifications, reports — connected across your tools and running 24/7 without you touching them.</p>
         <div class="tags"><span>n8n</span><span>Make.com</span><span>Zapier</span></div>
       </div>
       <div class="svc rv">
-        <div class="ico">🤖</div>
-        <h3>AI chatbots &amp; agents</h3>
-        <p>WhatsApp and website assistants that answer, qualify and book — in Arabic, French or English. Human handoff when it matters.</p>
-        <div class="tags"><span>WhatsApp API</span><span>OpenAI</span><span>RAG</span></div>
+        <div class="ico">🌐</div>
+        <h3>Websites that work for you</h3>
+        <p>Fast, modern sites that don't just look good — they collect bookings, answer questions and bring you clients while you sleep.</p>
+        <div class="tags"><span>Next.js</span><span>Landing pages</span><span>Booking flows</span></div>
       </div>
       <div class="svc rv">
-        <div class="ico">📇</div>
-        <h3>CRM &amp; pipeline integration</h3>
-        <p>Your CRM stays in sync automatically: enrichment, deduplication, lead scoring, deal-stage automation.</p>
-        <div class="tags"><span>HubSpot</span><span>Notion</span><span>Kommo</span></div>
+        <div class="ico">💬</div>
+        <h3>Assistants that answer &amp; book</h3>
+        <p>A WhatsApp or website assistant that replies instantly, qualifies visitors and books appointments — in Arabic, French or English. A human steps in when it matters.</p>
+        <div class="tags"><span>WhatsApp API</span><span>AI agents</span><span>RAG</span></div>
       </div>
       <div class="svc rv">
         <div class="ico">🔌</div>
-        <h3>API &amp; webhook engineering</h3>
-        <p>Custom integrations where no native connector exists. FastAPI backends, resilient retries, clean error handling.</p>
+        <h3>Connecting your tools</h3>
+        <p>Your CRM, your spreadsheets, your booking system — finally talking to each other. Custom integrations where no ready-made connector exists.</p>
         <div class="tags"><span>FastAPI</span><span>REST</span><span>Webhooks</span></div>
       </div>
       <div class="svc rv">
-        <div class="ico">📰</div>
-        <h3>AI content pipelines</h3>
-        <p>Automated research → draft → human-review → publish loops for blogs, social and newsletters. Quality gates included.</p>
-        <div class="tags"><span>LLMs</span><span>Notion</span><span>Approval flows</span></div>
+        <div class="ico">🛟</div>
+        <h3>Fix my automation</h3>
+        <p>Already have automations that break at the worst moment? I audit, repair and harden them — with monitoring so failures never go unnoticed again.</p>
+        <div class="tags"><span>Audits</span><span>Monitoring</span><span>Documentation</span></div>
       </div>
       <div class="svc rv">
-        <div class="ico">🛟</div>
-        <h3>Audit &amp; rescue</h3>
-        <p>Already have automations that break? I audit, fix and harden existing n8n/Make setups with monitoring and documentation.</p>
-        <div class="tags"><span>Debugging</span><span>Monitoring</span><span>Docs</span></div>
+        <div class="ico">🤝</div>
+        <h3>White-label for agencies</h3>
+        <p>Too much client work, not enough hands? I build under your brand — documented, client-ready, invisible. You keep the relationship.</p>
+        <div class="tags"><span>Subcontracting</span><span>Overflow</span><span>NDA-friendly</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work" style="padding-top:0">
+  <div class="wrap">
+    <div class="kicker rv">Selected work</div>
+    <h2 class="rv">Don't take my word for it.<br>Look at the work.</h2>
+    <p class="sub rv">A few concept builds from my workshop — the same quality I'd bring to your project.</p>
+    <div class="work-grid">
+      <div class="work rv">
+        <img src="assets/work-vitalis-clinic.webp" alt="Vitalis Clinic website" loading="lazy">
+        <div class="body">
+          <div class="kind">Clinic website</div>
+          <h3>Vitalis Clinic</h3>
+          <p>Clean, trustworthy medical site with online booking flow and FAQ that answers patients before they call.</p>
+          <a class="view" href="https://mohammedguejjim-hash.github.io/vitalis-clinic/" target="_blank" rel="noopener">View live →</a>
+        </div>
+      </div>
+      <div class="work rv">
+        <img src="assets/work-aura-dental.webp" alt="Aura Dental Studio website" loading="lazy">
+        <div class="body">
+          <div class="kind">Premium brand site</div>
+          <h3>Aura Dental Studio</h3>
+          <p>Luxury cosmetic dentistry experience — cinematic video hero, elegant booking journey, high-end feel.</p>
+          <a class="view" href="https://mohammedguejjim-hash.github.io/aura-dental-studio/" target="_blank" rel="noopener">View live →</a>
+        </div>
+      </div>
+      <div class="work rv">
+        <img src="assets/work-atelier-monolithe.webp" alt="Atelier Monolithe website" loading="lazy">
+        <div class="body">
+          <div class="kind">Creative studio site</div>
+          <h3>Atelier Monolithe</h3>
+          <p>Architecture studio with scroll-driven storytelling — proof that a website can feel like a film.</p>
+          <a class="view" href="https://mohammedguejjim-hash.github.io/atelier-monolithe/" target="_blank" rel="noopener">View live →</a>
+        </div>
+      </div>
+    </div>
+    <p class="work-note rv">More on my GitHub — every project above was designed and built by me, end to end.</p>
+  </div>
+</section>
+
+<section id="who" style="padding-top:0">
+  <div class="wrap">
+    <div class="kicker rv">Who I work with</div>
+    <h2 class="rv">Two ways we can work<br>together.</h2>
+    <p class="sub rv">Pick the one that sounds like you.</p>
+    <div class="who-grid">
+      <div class="who rv">
+        <img src="assets/clients-visual.webp" alt="Business owner working with a clear dashboard" loading="lazy">
+        <h3>🏪 Business owners</h3>
+        <p>You run a clinic, restaurant, agency or shop — and the admin work never ends. I come in, find the time-wasters and automate them.</p>
+        <ul>
+          <li><i>✓</i> Plain-words plan before anything starts</li>
+          <li><i>✓</i> Fixed price agreed upfront — no hourly fog</li>
+          <li><i>✓</i> Training so your team stays in control</li>
+        </ul>
+        <a href="#contact" class="btn btn-acc btn-sm">I own a business</a>
+      </div>
+      <div class="who rv" style="display:flex;flex-direction:column;justify-content:center">
+        <h3>🏢 Agencies</h3>
+        <p>Your clients need automation and your team is at capacity. I plug in quietly as your white-label builder.</p>
+        <ul>
+          <li><i>✓</i> Built under your brand, your process</li>
+          <li><i>✓</i> Documented handover your team can maintain</li>
+          <li><i>✓</i> NDA-friendly — your client never needs to know I exist</li>
+          <li><i>✓</i> n8n / Make / Zapier / custom code — whatever the project needs</li>
+        </ul>
+        <a href="#contact" class="btn btn-ghost btn-sm" style="align-self:flex-start">I run an agency</a>
       </div>
     </div>
   </div>
@@ -234,54 +334,41 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;flex-
 
 <section id="process" style="padding-top:0">
   <div class="wrap">
-    <div class="kicker rv">Process</div>
-    <h2 class="rv">From chaos to autopilot<br>in four steps.</h2>
-    <p class="sub rv">A clear, no-surprise way of working — whether you're a business or an agency outsourcing white-label.</p>
+    <div class="kicker rv">How it works</div>
+    <h2 class="rv">No jargon. No surprises.<br>Just four steps.</h2>
+    <p class="sub rv">You'll always know what's happening, what it costs, and when it's done.</p>
     <div class="steps">
-      <div class="step rv"><h3>Free audit</h3><p>A 20-minute call. We map the tasks eating your week and I tell you honestly what automation can and can't do.</p><span class="free">FREE</span></div>
-      <div class="step rv"><h3>Blueprint</h3><p>You get a written plan: the workflow design, tools, timeline and a fixed quote. No work starts without your sign-off.</p></div>
-      <div class="step rv"><h3>Build &amp; test</h3><p>I build in stages with regular updates. You test each milestone before we move on.</p></div>
-      <div class="step rv"><h3>Handover</h3><p>Documented workflows, a handover walkthrough, and monitoring so nothing breaks silently.</p></div>
+      <div class="step rv"><h3>Tell me the problem</h3><p>A free 20-minute call. Describe the task that annoys you most — in your own words, no tech vocabulary needed.</p><span class="free">FREE</span></div>
+      <div class="step rv"><h3>Get a plain-words plan</h3><p>I send a written plan: what I'll build, which tools, how long, and one fixed price. You approve before anything starts.</p></div>
+      <div class="step rv"><h3>I build, you test</h3><p>Built in stages with regular updates. You try each milestone yourself before we move to the next.</p></div>
+      <div class="step rv"><h3>Handover &amp; relax</h3><p>Documented systems, a walkthrough for your team, and monitoring so nothing breaks silently.</p></div>
     </div>
   </div>
 </section>
 
-<section class="creds" id="about">
+<section class="about-sec" id="about">
   <div class="wrap">
-    <div class="kicker rv">Why me</div>
-    <h2 class="rv">Certified. Not just<br>"familiar with the tools."</h2>
-    <p class="sub rv">Anyone can connect two apps. I architect systems — with the certifications and engineering background to prove it.</p>
-    <div class="cred-grid">
-      <div class="cred rv">
-        <div class="badge">Automation</div>
-        <h3>Make.com — Level 4</h3>
-        <p>Certified in Advising &amp; Solution Architecture, plus n8n Professional and Zapier certifications. 26 professional certifications in total.</p>
-      </div>
-      <div class="cred rv">
-        <div class="badge">Engineering</div>
-        <h3>Full-stack developer</h3>
-        <p>Next.js, TypeScript, Python/FastAPI, PostgreSQL. When no-code hits its limit, I write the code that removes it.</p>
-      </div>
-      <div class="cred rv">
-        <div class="badge">AI</div>
-        <h3>AI systems builder</h3>
-        <p>LLM function calling, RAG pipelines, multimodal AI and multi-agent workflows with OpenAI, Claude and Gemini.</p>
-      </div>
-    </div>
     <div class="about">
       <div class="about-photo rv">
         <div class="init">MG</div>
         <b style="font-size:20px">Mohammed Guejjim</b>
-        <span style="color:var(--mut);font-size:14px">AI Automation Expert · Fès, Morocco<br>Working 100% remotely, worldwide</span>
+        <span style="color:var(--mut);font-size:14px">Fès, Morocco · working worldwide, 100% remote</span>
       </div>
       <div class="rv">
-        <h2 style="font-size:30px">An engineer who speaks business.</h2>
-        <p class="sub" style="margin-bottom:0">I don't sell you "workflows" — I sell you back your week. Every project starts from the business outcome you want, then I pick the simplest reliable technology to get there.</p>
+        <div class="kicker">About me</div>
+        <h2 style="font-size:30px">An engineer who speaks human.</h2>
+        <p class="sub" style="margin-bottom:0">Most automation people talk in tools. I start from your problem and work backwards. If automation isn't worth it for your case, I'll tell you straight — and I won't charge you for the call.</p>
+        <div class="cred-chips">
+          <span>Make.com · Level 4</span>
+          <span>n8n · Professional</span>
+          <span>Zapier · Certified</span>
+          <span>Next.js · Full-stack</span>
+          <span>Python · FastAPI</span>
+        </div>
         <ul>
-          <li><i>✓</i> Agencies: white-label delivery under your brand, documented and client-ready</li>
-          <li><i>✓</i> Businesses: direct builds with training so your team stays in control</li>
-          <li><i>✓</i> Trilingual: Arabic, French, English — I work with your team in their language</li>
-          <li><i>✓</i> Honest scoping: if automation isn't worth it for your case, I'll tell you</li>
+          <li><i>✓</i> Every email answered by me personally — no sales team, no bots</li>
+          <li><i>✓</i> I work in your language: Arabic, French or English</li>
+          <li><i>✓</i> Fixed quotes, documented work, honest timelines</li>
         </ul>
       </div>
     </div>
@@ -291,28 +378,28 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;flex-
 <section id="faq">
   <div class="wrap">
     <div class="kicker rv">FAQ</div>
-    <h2 class="rv">Straight answers.</h2>
-    <p class="sub rv">The questions everyone asks before automating.</p>
+    <h2 class="rv">Fair questions.</h2>
+    <p class="sub rv">What everyone asks before we start.</p>
     <div class="faq">
       <div class="faq-item rv">
-        <button class="faq-q">How much does an automation project cost? <span>+</span></button>
-        <div class="faq-a"><p>It depends on complexity, which is why every project starts with a free audit and a fixed written quote. Small workflows are surprisingly affordable; larger systems are quoted per milestone. You never pay for vague "hours".</p></div>
+        <button class="faq-q">How much will this cost me? <span>+</span></button>
+        <div class="faq-a"><p>Honest answer: it depends on the task. That's why we start with a free call and you get one fixed written price before anything begins. Small automations are often cheaper than people expect — and if it's not worth automating, I'll say so instead of selling you something.</p></div>
       </div>
       <div class="faq-item rv">
-        <button class="faq-q">n8n or Make.com — which should I use? <span>+</span></button>
-        <div class="faq-a"><p>Honest answer: it depends. n8n (self-hosted) wins on cost at scale and data control; Make.com wins on speed and its huge app library. During the audit I'll recommend whichever fits your case — I'm certified in both, so there's no bias.</p></div>
+        <button class="faq-q">I'm not technical. Is this for me? <span>+</span></button>
+        <div class="faq-a"><p>Most of my clients aren't. You describe the annoying task in plain words — "every morning I copy orders into a spreadsheet" — and I handle everything technical. You'll get a simple walkthrough at the end, no jargon.</p></div>
       </div>
       <div class="faq-item rv">
-        <button class="faq-q">What happens if something breaks after delivery? <span>+</span></button>
-        <div class="faq-a"><p>Every build includes error handling, monitoring and documentation. If a workflow I built fails because of my work, I fix it. For ongoing changes and maintenance I offer a simple monthly arrangement.</p></div>
+        <button class="faq-q">What if it breaks after you deliver? <span>+</span></button>
+        <div class="faq-a"><p>Everything I build has error handling and monitoring — if something fails, we know immediately. If it breaks because of my work, I fix it. For ongoing changes, there's a simple monthly option.</p></div>
       </div>
       <div class="faq-item rv">
-        <button class="faq-q">Do you work white-label for agencies? <span>+</span></button>
-        <div class="faq-a"><p>Yes — that's a core part of my work. I build under your brand, join your process quietly, and hand over documented work your team can present and maintain. Your client never needs to know I exist.</p></div>
+        <button class="faq-q">n8n or Make.com — which one do I need? <span>+</span></button>
+        <div class="faq-a"><p>You don't need to choose — that's my job. I'm certified in both. Roughly: n8n wins on cost at scale and data control, Make.com wins on speed of setup. I'll recommend whichever fits your case, not my preference.</p></div>
       </div>
       <div class="faq-item rv">
         <button class="faq-q">How do we start? <span>+</span></button>
-        <div class="faq-a"><p>Send me an email describing one repetitive task that annoys you. We'll do a free 20-minute audit call, and you'll get a written blueprint with a fixed quote — no commitment required.</p></div>
+        <div class="faq-a"><p>Send me an email about one task that wastes your time. We'll have a free 20-minute call, and you'll get a written plan with a fixed price. No commitment, no pressure.</p></div>
       </div>
     </div>
   </div>
@@ -321,30 +408,28 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;flex-
 <section id="contact" style="padding-top:20px">
   <div class="wrap">
     <div class="cta-box rv">
-      <h2>Let's find your first<br>thing to automate.</h2>
-      <p>Tell me about one repetitive task eating your week. I'll reply within 24 hours with honest thoughts — free, no pitch attached.</p>
+      <h2>What's the one task<br>you'd delete from your week?</h2>
+      <p>Tell me about it in one email. I'll reply within 24 hours with honest thoughts on whether it's worth automating — free, no pitch attached.</p>
       <div class="cta-row">
-        <a class="btn btn-acc" href="mailto:ellsimohammed8@gmail.com?subject=Free%20automation%20audit">Email me — free audit</a>
+        <a class="btn btn-acc" href="mailto:ellsimohammed8@gmail.com?subject=Free%20automation%20call">Email me — it's free</a>
       </div>
-      <div class="contact-line">Prefer writing? <a href="mailto:ellsimohammed8@gmail.com">ellsimohammed8@gmail.com</a> · Fès, Morocco · 100% remote</div>
+      <div class="contact-line"><a href="mailto:ellsimohammed8@gmail.com">ellsimohammed8@gmail.com</a> · Fès, Morocco · 100% remote</div>
     </div>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
-    <span>© 2026 Mohammed Guejjim — AI Automation Expert</span>
+    <span>© 2026 Mohammed Guejjim</span>
     <span>Make.com L4 · n8n Professional · Zapier Certified</span>
   </div>
 </footer>
 
 <script>
-// duplicate strip content for seamless loop
 (function(){
   var t=document.getElementById('stripTrack');
   t.innerHTML+=t.innerHTML;
 })();
-// reveal on scroll
 (function(){
   var els=document.querySelectorAll('.rv');
   if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return;}
@@ -353,7 +438,6 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;flex-
   },{threshold:.12});
   els.forEach(function(e){io.observe(e);});
 })();
-// faq accordion
 document.querySelectorAll('.faq-q').forEach(function(btn){
   btn.addEventListener('click',function(){
     var item=btn.parentElement, a=item.querySelector('.faq-a');
